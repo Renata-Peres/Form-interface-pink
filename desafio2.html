@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title-register">Cadastro</h2>
+
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="idade">Idade</label>
+            <input type="number" min="12" name="idade" id="idade" required>
+
+            <label for="datadenascimento">Data de nascimento</label>
+            <input type="date" name="data de nasc" required>
+
+            <label for="conta">Onde você possui conta</label>
+            <input type="checkbox" name="instagram" <label>Instagram</label> <input type="checkbox" name="facebook" <label>Facebook</label> <input
+                type="checkbox" name="youtube" <label>Youtube</label>
+
+            <label>Sexo</label>
+
+            <label>
+                <input type="radio" name="genero" Value="masculino">
+                Masculino
+
+                <input type="radio" name="genero" value="feminino">
+                Feminino
+            </label>
+
+            <label>Cor dos olhos</label>
+            <input type="color" name="cor-dos-olhos" required>
+
+            <label>Biografia</label>
+            <textarea name="bio"></textarea>
+
+            <label>Foto do perfil</label>
+            <input type="file" name="arquivo" accept=".jpg" required>
+
+            <label>Telefone</label>
+            <input type="tel" name="tel" required>
+
+            <label>Link do perfil do Facebook</label>
+            <input type="url" name="link">
+
+            <label>Senha</label>
+            <input type="password" name="senha" min="6" max="8" required>
+
+            <button class="button-clear" type="reset" name="reset">Limpar</button>
+            <button class="button-submit" type="submit" name="submit">Enviar dados</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #FFD1BF;
+}
+
+.title-register {
+    font-size: large;
+    margin-top: unset;
+    margin-bottom: 1px;
+    position: absolute;
+    font-weight: bolder;
+    top: 2px;
+    background-color: white;
+}
+
+label {
+    display:block;
+    color:#D96269;
+    font-size:20px;
+    font-weight: bolder;
+}
+
+input {
+    margin-bottom: 15px;
+    border:2px solid #E315ED;
+}
+
+button {
+    cursor:pointer;
+    display:block;
+}
+
+.button-clear:hover {
+    background-color: blue;
+    width: 80px;
+    height: 30px;
+    color:crimson;
+    border:10px solid darkorange;
+    font-weight:bolder;
+}
+
+.button-submit:hover {
+    background-color: blueviolet;
+    width:80px;
+    height: 30px;
+    color:darkmagenta;
+    border:10px solid deeppink;
+    font-weight:bolder;
+}
