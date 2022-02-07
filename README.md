@@ -2,7 +2,7 @@
  
 <img src="result.png" alt="final-result">
 
-> Final result of mey interface form in pink.
+> Final result of my interface form in pink.
 
 #Tasks
 
